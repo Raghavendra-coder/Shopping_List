@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(184, 73, 184);
+}
+
+.List{
+    background-color: rgb(255, 255, 255);
+    width : 300px;
+    height : 630px;  
+    margin: 100px 550px;
+    border-radius: 40px;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: 'Original Surfer', cursive;
+    color: rgb(184, 73, 184);
+    margin : 0px 0px ;
+    font-weight: bolder;
+    
+    
+}
+input{
+    width : 150px ;
+    height: 40px ;
+    align-content : center;
+    margin : 0px 40px;
+    border-color: rgb(184, 73, 184) ;
+    border-radius: 10px;
+    font-family: 'Original Surfer', cursive;
+    text-align: center;
+    color :rgb(184, 73, 184);
+    
+    
+}
+button{
+    width : 50px;
+    height : 50px;
+    border-radius: 50%;
+    background-color: rgb(184, 73, 184);
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Original Surfer', cursive;
+    margin-left: -25px ;
+    color : white;
+    transition: ease 0.4s;
+    border-color: rgb(255, 255, 255);
+    justify-content: right;
+}
+.todo_style{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.todo_style .fa-times {
+    width: 15px;
+    height: 15px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(184, 73, 184);
+    border-radius: 50%;
+    margin: 0 15px 0 35px;
+    color: azure;
+    box-shadow: 5px 5px 15px -5px rgb(0, 0, 0);
+    transition: ease 0.2s;
+}
+.todo_style .fa-times:hover{
+    background-color: rgb(180, 0, 0);
+    transform: scale(1.1,1.1);
+}
+
+li{
+    font-family: 'Original Surfer', cursive;
+    list-style: none;
+
+    color: rgb(184, 73, 184);
+    font-size: 20px;
+}
+li::first-letter{
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: rgb(57, 228, 80);
+    transform: scale(1.2,1.2);
+    color: rgb(255, 255, 255);
+}
